@@ -55,16 +55,16 @@ s5p2 = syllable_length_fiv_p2 = syllable_length_two[4].to_i
 row_1 = s1p1 + s1p2; average_1 = row_1 / 2
 
 # Some of comparison 2
-row_2 = s2p1 + s2p2; average_1 = row_1 / 2
+row_2 = s2p1 + s2p2; average_2 = row_1 / 2
 
 # Some of comparison 3
-row_3 = s3p1 + s3p2; average_1 = row_1 / 2
+row_3 = s3p1 + s3p2; average_3 = row_1 / 2
 
 # Some of comparison 4
-row_4 = s4p1 + s4p2; average_1 = row_1 / 2
+row_4 = s4p1 + s4p2; average_4 = row_1 / 2
 
 # Some of comparison 5
-row_5 = s5p1 + s5p2; average_1 = row_1 / 2
+row_5 = s5p1 + s5p2; average_5 = row_1 / 2
 
 # Loop until you ran out of years of syllabic drift.
 syllabic_drift_years.times do
