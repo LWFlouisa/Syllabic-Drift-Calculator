@@ -68,13 +68,19 @@ row_5 = s5p1 + s5p2; average_5 = row_1 / 2
 
 # Loop until you ran out of years of syllabic drift.
 syllabic_drift_years.times do
+  output_1 = average_1 + syllabic_increase_int
+  output_2 = average_2 + syllabic_increase_int
+  output_3 = average_3 + syllabic_increase_int
+  output_4 = average_4 + syllabic_increase_int
+  output_5 = average_5 + syllabic_increase_int
+  
   puts " For year of #{year_number}: "
 
-  print "Average syllabic mean for line one is " + output_1 = average_1 + syllabic_increase_int + "syllables in year #{year_number}."
-  print "Average syllabic mean for line two is " + output_2 = average_2 + syllabic_increase_int + "syllables in year #{year_number}."
-  print "Average syllabic mean for line tre is " + output_3 = average_3 + syllabic_increase_int + "syllables in year #{year_number}."
-  print "Average syllabic mean for line fro is " + output_4 = average_4 + syllabic_increase_int + "syllables in year #{year_number}."
-  print "Average syllabic mean for line fiv is " + output_5 = average_5 + syllabic_increase_int + "syllables in year #{year_number}"
+  print "Average syllabic mean for line one is " + output_1 + " syllables in year #{year_number}."
+  print "Average syllabic mean for line two is " + output_2 + " syllables in year #{year_number}."
+  print "Average syllabic mean for line tre is " + output_3 + " syllables in year #{year_number}."
+  print "Average syllabic mean for line fro is " + output_4 + " syllables in year #{year_number}."
+  print "Average syllabic mean for line fiv is " + output_5 + "syllables in year #{year_number}"
 
   year_number = year_number + 1
 end
